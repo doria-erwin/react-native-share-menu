@@ -33,6 +33,7 @@ class ShareViewController: SLComposeServiceViewController {
     } else {
       print("Error: \(NO_INFO_PLIST_URL_SCHEME_ERROR)")
     }
+
   }
 
     override func isContentValid() -> Bool {
@@ -243,7 +244,7 @@ class ShareViewController: SLComposeServiceViewController {
   
   func completeRequest() {
     // Inform the host that we're done, so it un-blocks its UI. Note: Alternatively you could call super's -didSelectPost, which will similarly complete the extension context.
-    extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
+    extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
   }
   
   func cancelRequest() {

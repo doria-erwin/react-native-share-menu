@@ -15,7 +15,8 @@ class ReactShareViewController: ShareViewController, RCTBridgeDelegate, ReactSha
     return RCTBundleURLProvider.sharedSettings()?
       .jsBundleURL(forBundleRoot:"index.share")
 #else
-    return Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+    return Bundle.main.url(forResource: "share", withExtension: "jsbundle")
+    
 #endif
   }
 
