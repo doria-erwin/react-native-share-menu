@@ -25,5 +25,9 @@ Pod::Spec.new do |s|
     'ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
   }
 
-  s.dependency "React"
+  s.dependency "React-Core"
+  s.dependency "React-Core/DevSupport"
+  s.dependency "React-RCTBridge"
+  s.dependency "React-RCTText"
+  s.dependency "ReactCommon/turbomodule/core"
 end
