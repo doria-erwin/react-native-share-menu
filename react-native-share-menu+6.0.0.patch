@@ -1,0 +1,662 @@
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/results.bin b/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..3607716
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/.transforms/8fce3ca1c2b172d8d21de692defca3aa/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/results.bin b/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..28c9c2d
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/.transforms/b7fa951b4b8f9ca89ed02319206970ab/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/results.bin b/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..eb149e3
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/.transforms/d573ac54d086b4dec75dd36c9b1b5647/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/results.bin b/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..332ae58
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/.transforms/db393844acf9db938cd1ee7055f4153b/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/debug/com/meedan/BuildConfig.java b/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/debug/com/meedan/BuildConfig.java
+new file mode 100644
+index 0000000..6fc6410
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/debug/com/meedan/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.meedan;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.meedan";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/release/com/meedan/BuildConfig.java b/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/release/com/meedan/BuildConfig.java
+new file mode 100644
+index 0000000..a1bd37b
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/generated/source/buildConfig/release/com/meedan/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.meedan;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = false;
++  public static final String LIBRARY_PACKAGE_NAME = "com.meedan";
++  public static final String BUILD_TYPE = "release";
++}
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..e231a9d
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.meedan" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+new file mode 100644
+index 0000000..39475d0
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.meedan",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..e231a9d
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.meedan" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/output-metadata.json b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/output-metadata.json
+new file mode 100644
+index 0000000..8cef5f8
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aapt_friendly_merged_manifests/release/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.meedan",
++  "variantName": "release",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aar_main_jar/release/classes.jar b/node_modules/react-native-share-menu/android/build/intermediates/aar_main_jar/release/classes.jar
+new file mode 100644
+index 0000000..c26f627
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/aar_main_jar/release/classes.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/debug/aar-metadata.properties b/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+new file mode 100644
+index 0000000..776557e
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+@@ -0,0 +1,5 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/release/aar-metadata.properties b/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/release/aar-metadata.properties
+new file mode 100644
+index 0000000..776557e
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/aar_metadata/release/aar-metadata.properties
+@@ -0,0 +1,5 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json b/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/release/annotationProcessors.json b/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/release/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/annotation_processor_list/release/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/annotations_typedef_file/release/typedefs.txt b/node_modules/react-native-share-menu/android/build/intermediates/annotations_typedef_file/release/typedefs.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/debug/classes.jar b/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..6acc3f1
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/release/classes.jar b/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/release/classes.jar
+new file mode 100644
+index 0000000..983e638
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/compile_library_classes_jar/release/classes.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/debug/R.jar b/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/debug/R.jar
+new file mode 100644
+index 0000000..008bed8
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/debug/R.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/release/R.jar b/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/release/R.jar
+new file mode 100644
+index 0000000..008bed8
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/compile_r_class_jar/release/R.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_symbol_list/debug/R.txt b/node_modules/react-native-share-menu/android/build/intermediates/compile_symbol_list/debug/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/compile_symbol_list/release/R.txt b/node_modules/react-native-share-menu/android/build/intermediates/compile_symbol_list/release/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/full_jar/release/full.jar b/node_modules/react-native-share-menu/android/build/intermediates/full_jar/release/full.jar
+new file mode 100644
+index 0000000..eb7ce81
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/full_jar/release/full.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..c5cbdaf
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Wed Oct 16 13:27:56 IST 2024
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..084ba77
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..08538b0
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..e6f4887
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..ab47bce
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/jniLibs"/></dataSet><dataSet config="release" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/release/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseShaders/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+new file mode 100644
+index 0000000..7ed6aa9
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/shaders"/></dataSet><dataSet config="release" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/release/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..597fd44
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/intermediates/shader_assets/debug/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageReleaseAssets/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageReleaseAssets/merger.xml
+new file mode 100644
+index 0000000..fe3d99e
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/packageReleaseAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/assets"/></dataSet><dataSet config="release" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/release/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/intermediates/shader_assets/release/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/release-mergeJavaRes/merge-state b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release-mergeJavaRes/merge-state
+new file mode 100644
+index 0000000..1c983fc
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release-mergeJavaRes/merge-state differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties
+new file mode 100644
+index 0000000..231770b
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Thu Oct 03 11:22:02 IST 2024
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+new file mode 100644
+index 0000000..e02ccf4
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/build/generated/res/resValues/release"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/BuildConfig.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/BuildConfig.class
+new file mode 100644
+index 0000000..d2ac5fe
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/BuildConfig.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuModule.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuModule.class
+new file mode 100644
+index 0000000..4d81db5
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuModule.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuPackage.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuPackage.class
+new file mode 100644
+index 0000000..e90a5d6
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/debug/classes/com/meedan/ShareMenuPackage.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/BuildConfig.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/BuildConfig.class
+new file mode 100644
+index 0000000..705fe17
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/BuildConfig.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuModule.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuModule.class
+new file mode 100644
+index 0000000..4d81db5
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuModule.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuPackage.class b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuPackage.class
+new file mode 100644
+index 0000000..e90a5d6
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/javac/release/classes/com/meedan/ShareMenuPackage.class differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/lint_model_metadata/release/lint-model-metadata.properties b/node_modules/react-native-share-menu/android/build/intermediates/lint_model_metadata/release/lint-model-metadata.properties
+new file mode 100644
+index 0000000..4c7906a
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/lint_model_metadata/release/lint-model-metadata.properties
+@@ -0,0 +1,2 @@
++mavenArtifactId=react-native-share-menu
++mavenGroupId=wrdhrd
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/local_aar_for_lint/release/out.aar b/node_modules/react-native-share-menu/android/build/intermediates/local_aar_for_lint/release/out.aar
+new file mode 100644
+index 0000000..05bc92a
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/local_aar_for_lint/release/out.aar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/debug/R-def.txt b/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/release/R-def.txt b/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/release/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/local_only_symbol_list/release/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt b/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..5c747ef
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.meedan" >
++4
++5    <uses-sdk android:minSdkVersion="16" />
++6
++7</manifest>
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt b/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt
+new file mode 100644
+index 0000000..5c747ef
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.meedan" >
++4
++5    <uses-sdk android:minSdkVersion="16" />
++6
++7</manifest>
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/merged_java_res/release/feature-react-native-share-menu.jar b/node_modules/react-native-share-menu/android/build/intermediates/merged_java_res/release/feature-react-native-share-menu.jar
+new file mode 100644
+index 0000000..15cb0ec
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/merged_java_res/release/feature-react-native-share-menu.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml b/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+new file mode 100644
+index 0000000..e231a9d
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.meedan" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/release/AndroidManifest.xml b/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/release/AndroidManifest.xml
+new file mode 100644
+index 0000000..e231a9d
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/merged_manifest/release/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.meedan" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/debug/navigation.json b/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/debug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/debug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/release/navigation.json b/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/release/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/navigation_json/release/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar b/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..fcad3d6
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/release/classes.jar b/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/release/classes.jar
+new file mode 100644
+index 0000000..0cc3414
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/intermediates/runtime_library_classes_jar/release/classes.jar differ
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt b/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+new file mode 100644
+index 0000000..3a6ee17
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+@@ -0,0 +1 @@
++com.meedan
+diff --git a/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt b/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt
+new file mode 100644
+index 0000000..3a6ee17
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt
+@@ -0,0 +1 @@
++com.meedan
+diff --git a/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..391d9d3
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,17 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:1-4:12
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:1-4:12
++	package
++		ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:2:11-31
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:11-69
++uses-sdk
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-release-report.txt b/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-release-report.txt
+new file mode 100644
+index 0000000..391d9d3
+--- /dev/null
++++ b/node_modules/react-native-share-menu/android/build/outputs/logs/manifest-merger-release-report.txt
+@@ -0,0 +1,17 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:1-4:12
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:1-4:12
++	package
++		ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:2:11-31
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml:1:11-69
++uses-sdk
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/sumansaurabh/Documents/Projects/Wrdhrd/wrdhrd-mobile-app-fabric/node_modules/react-native-share-menu/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-share-menu/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-share-menu/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..b4b1820
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-share-menu/android/build/tmp/compileReleaseJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-share-menu/android/build/tmp/compileReleaseJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..fc4a57e
+Binary files /dev/null and b/node_modules/react-native-share-menu/android/build/tmp/compileReleaseJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-share-menu/ios/Modules/ShareMenuReactView.swift b/node_modules/react-native-share-menu/ios/Modules/ShareMenuReactView.swift
+index e290cce..7356aca 100644
+--- a/node_modules/react-native-share-menu/ios/Modules/ShareMenuReactView.swift
++++ b/node_modules/react-native-share-menu/ios/Modules/ShareMenuReactView.swift
+@@ -18,7 +18,7 @@ public class ShareMenuReactView: NSObject {
+     }
+ 
+     public static func attachViewDelegate(_ delegate: ReactShareViewDelegate!) {
+-        guard (ShareMenuReactView.viewDelegate == nil) else { return }
++       guard (ShareMenuReactView.viewDelegate == nil) else { return }
+ 
+         ShareMenuReactView.viewDelegate = delegate
+     }
+@@ -45,6 +45,7 @@ public class ShareMenuReactView: NSObject {
+         }
+ 
+         extensionContext.completeRequest(returningItems: [], completionHandler: nil)
++        ShareMenuReactView.detachViewDelegate()
+     }
+ 
+     @objc
+@@ -55,6 +56,7 @@ public class ShareMenuReactView: NSObject {
+         }
+ 
+         viewDelegate.openApp()
++        ShareMenuReactView.detachViewDelegate()
+     }
+ 
+     @objc(continueInApp:)
+@@ -72,6 +74,7 @@ public class ShareMenuReactView: NSObject {
+         }
+ 
+         viewDelegate.continueInApp(with: items, and: extraData)
++        ShareMenuReactView.detachViewDelegate()
+     }
+ 
+     @objc(data:reject:)
+diff --git a/node_modules/react-native-share-menu/ios/ReactShareViewController.swift b/node_modules/react-native-share-menu/ios/ReactShareViewController.swift
+index f42bce6..46824a8 100644
+--- a/node_modules/react-native-share-menu/ios/ReactShareViewController.swift
++++ b/node_modules/react-native-share-menu/ios/ReactShareViewController.swift
+@@ -9,11 +9,12 @@
+ 
+ import RNShareMenu
+ 
++@available(iOSApplicationExtension, unavailable)
+ class ReactShareViewController: ShareViewController, RCTBridgeDelegate, ReactShareViewDelegate {
+   func sourceURL(for bridge: RCTBridge!) -> URL! {
+ #if DEBUG
+     return RCTBundleURLProvider.sharedSettings()?
+-      .jsBundleURL(forBundleRoot: "index.share", fallbackResource: nil)
++      .jsBundleURL(forBundleRoot: "index.share")
+ #else
+     return Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+ #endif
+diff --git a/node_modules/react-native-share-menu/ios/ShareViewController.swift b/node_modules/react-native-share-menu/ios/ShareViewController.swift
+index 12d8c92..358db45 100644
+--- a/node_modules/react-native-share-menu/ios/ShareViewController.swift
++++ b/node_modules/react-native-share-menu/ios/ShareViewController.swift
+@@ -14,6 +14,7 @@ import UIKit
+ import Social
+ import RNShareMenu
+ 
++@available(iOSApplicationExtension, unavailable)
+ class ShareViewController: SLComposeServiceViewController {
+   var hostAppId: String?
+   var hostAppUrlScheme: String?
+@@ -129,19 +130,24 @@ class ShareViewController: SLComposeServiceViewController {
+   }
+   
+   func storeText(withProvider provider: NSItemProvider, _ semaphore: DispatchSemaphore) {
+-    provider.loadItem(forTypeIdentifier: kUTTypeText as String, options: nil) { (data, error) in
+-      guard (error == nil) else {
+-        self.exit(withError: error.debugDescription)
+-        return
+-      }
+-      guard let text = data as? String else {
+-        self.exit(withError: COULD_NOT_FIND_STRING_ERROR)
+-        return
++      provider.loadItem(forTypeIdentifier: kUTTypeText as String, options: nil) { (data, error) in
++        guard (error == nil) else {
++          self.exit(withError: error.debugDescription)
++          return
++        }
++        guard let text = data as? NSData else{
++          guard let text = data as? String else {
++            self.exit(withError: COULD_NOT_FIND_STRING_ERROR)
++            return
++          }
++          self.sharedItems.append([DATA_KEY: text, MIME_TYPE_KEY: "text/plain"])
++          semaphore.signal()
++          return
++        }
++        let url = String(data: text as Data, encoding: .utf8)
++        self.sharedItems.append([DATA_KEY: url, MIME_TYPE_KEY: "vcard"])
++        semaphore.signal()
+       }
+-      
+-      self.sharedItems.append([DATA_KEY: text, MIME_TYPE_KEY: "text/plain"])
+-      semaphore.signal()
+-    }
+   }
+   
+   func storeUrl(withProvider provider: NSItemProvider, _ semaphore: DispatchSemaphore) {
+@@ -222,21 +228,28 @@ class ShareViewController: SLComposeServiceViewController {
+       return
+     }
+ 
+-    let url = URL(string: urlScheme)
+-    let selectorOpenURL = sel_registerName("openURL:")
+-    var responder: UIResponder? = self
++     guard let url = URL(string: urlScheme) else {
++       exit(withError: NO_INFO_PLIST_URL_SCHEME_ERROR)
++       return //be safe
++     }
+  
+-    while responder != nil {
+-      if responder?.responds(to: selectorOpenURL) == true {
+-        responder?.perform(selectorOpenURL, with: url)
+-      }
+-      responder = responder!.next
+-    }
++     UIApplication.shared.open(url, options: [:], completionHandler: completeRequest)
+     
+-    completeRequest()
++//    let url = URL(string: urlScheme)
++//    let selectorOpenURL = sel_registerName("openURL:")
++//    var responder: UIResponder? = self
++//    
++//    while responder != nil {
++//      if responder?.responds(to: selectorOpenURL) == true {
++//        responder?.perform(selectorOpenURL, with: url)
++//      }
++//      responder = responder!.next
++//    }
++//    
++//    completeRequest()
+   }
+   
+-  func completeRequest() {
++  func completeRequest(success: Bool) {
+     // Inform the host that we're done, so it un-blocks its UI. Note: Alternatively you could call super's -didSelectPost, which will similarly complete the extension context.
+     extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
+   }

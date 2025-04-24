@@ -135,21 +135,38 @@ class ShareViewController: SLComposeServiceViewController {
   }
   
   func storeText(withProvider provider: NSItemProvider, _ semaphore: DispatchSemaphore) {
-    provider.loadItem(forTypeIdentifier: kUTTypeText as String, options: nil) { (data, error) in
-      guard (error == nil) else {
-        self.exit(withError: error.debugDescription)
-        return
-      }
-      guard let text = data as? String else {
-        self.exit(withError: COULD_NOT_FIND_STRING_ERROR)
-        return
-      }
-      
-      self.sharedItems.append([DATA_KEY: text, MIME_TYPE_KEY: "text/plain"])
-      semaphore.signal()
+        provider.loadItem(forTypeIdentifier: kUTTypeText as String, options: nil) { (data, error) in
+            guard (error == nil) else {
+                self.exit(withError: error.debugDescription)
+                return
+            }
+            guard let text = data as? NSData else {
+                guard let text = data as? String else {
+                    self.exit(withError: COULD_NOT_FIND_STRING_ERROR)
+                    return
+                }
+                self.sharedItems.append([DATA_KEY: text, MIME_TYPE_KEY: "text/plain"])
+                semaphore.signal()
+                return
+            }
+            let url = String(data: text as Data, encoding: .utf8)
+            self.sharedItems.append([DATA_KEY: url, MIME_TYPE_KEY: "vcard"])
+            semaphore.signal()
+        }
     }
-  }
   
+  func openURL(_ urlScheme: String, _ completeRequest: @escaping (Bool) -> Void) {
+        guard let url = URL(string: urlScheme) else {
+            exit(withError: NO_INFO_PLIST_URL_SCHEME_ERROR)
+            return
+        }
+        UIApplication.shared.open(url, options: [:], completionHandler: completeRequest)
+    }
+
+  func completeRequest(success: Bool) {
+        extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
+    }
+
   func storeUrl(withProvider provider: NSItemProvider, _ semaphore: DispatchSemaphore) {
     provider.loadItem(forTypeIdentifier: kUTTypeURL as String, options: nil) { (data, error) in
       guard (error == nil) else {
