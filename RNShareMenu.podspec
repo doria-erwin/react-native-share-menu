@@ -21,6 +21,9 @@ Pod::Spec.new do |s|
     "ios/ReactShareViewController.swift"
   ]
 
+  s.pod_target_xcconfig = {
+    'ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
 
   s.dependency "React"
 end
