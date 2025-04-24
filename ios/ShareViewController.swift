@@ -163,10 +163,6 @@ class ShareViewController: SLComposeServiceViewController {
         UIApplication.shared.open(url, options: [:], completionHandler: completeRequest)
     }
 
-  func completeRequest(success: Bool) {
-        extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
-    }
-
   func storeUrl(withProvider provider: NSItemProvider, _ semaphore: DispatchSemaphore) {
     provider.loadItem(forTypeIdentifier: kUTTypeURL as String, options: nil) { (data, error) in
       guard (error == nil) else {
@@ -259,9 +255,8 @@ class ShareViewController: SLComposeServiceViewController {
     completeRequest()
   }
   
-  func completeRequest() {
-    // Inform the host that we're done, so it un-blocks its UI. Note: Alternatively you could call super's -didSelectPost, which will similarly complete the extension context.
-    extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
+  func completeRequest(success: Bool) {
+    extensionContext!.completeRequest(returningItems: [], completionHandler: nil)
   }
   
   func cancelRequest() {
